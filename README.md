@@ -26,6 +26,19 @@ Developers/Researchers: Those involved in the development of large language mode
 
 ## Literature Review:
 
+The paper offers an extensive examination of the advancements in text classification achieved through deep learning models compared to traditional machine learning methods. It specifically focuses on diverse applications such as sentiment analysis, news categorization, question answering, and natural language inference. The authors conduct a thorough review of over 150 deep-learning models developed in recent years, delving into their technical contributions, commonalities, and strengths.
+
+The comprehensive analysis extends to the exploration of more than 40 widely used datasets in the field of text classification, shedding light on the diversity of sources utilized for training and evaluation. Additionally, the paper provides a quantitative assessment of the performance of various deep learning models on popular benchmarks, offering a valuable comparison of their effectiveness.
+
+Shervin Minaee [January 4, 2021] “Deep Learning Based Text Classification: A Comprehensive Review” https://arxiv.org/pdf/2004.03705.pdf
+
+The paper addresses the challenge of using traditional Random Forests for short text classification, revealing a performance decline due to issues such as shortness, sparseness, and lack of contextual information in short texts. The existing solutions to these problems involve data enrichment, but this approach can introduce noise. The authors propose a novel method that combines data enrichment with the integration of semantics into Random Forests.
+
+In their approach, each short text is enriched with semantically similar data obtained from an external source of knowledge organized into topics using the Latent Dirichlet Allocation model. The learning process in Random Forests is modified to incorporate semantic relations between words during the construction of decision trees. The authors conducted tests on search snippets using their proposed method, demonstrating significant improvements in classification accuracy. The results showed a 34% increase in accuracy compared to traditional Random Forests and a 20% increase compared to MaxEnt. This suggests that incorporating semantic information into the learning process enhances the performance of Random Forests in short text classification tasks.
+
+Ameni Bouaziz “Short Text Classification Using Semantic Random Forest” https://www.researchgate.net/profile/Celia-Da-Costa-Pereira/publication/300335247_Short_Text_Classification_Using_Semantic_Random_Forest/links/5cff88474585157d15a225d0/Short-Text-Classification-Using-Semantic-Random-Forest.pdf
+
+
 
 ## Domain-specific Challenges:
 
@@ -45,7 +58,7 @@ Developers/Researchers: Those involved in the development of large language mode
 ## KPI’s:
 
 1. Accuracy:
-- Total Accurate Predictions: It is essential to accurately categorise essays as either LLM-generated or student-written. A high accuracy rate suggests that the model is good at differentiating between the two groups.
+- Total Accurate Predictions: It is essential to accurately categorize essays as either LLM-generated or student-written. A high accuracy rate suggests that the model is good at differentiating between the two groups.
 
 2. Precision:
 - Real Benefits Among Expected Benefits: To evaluate the model's capacity to distinguish between essays produced by LLMs and those authored by students accurately, precision is essential. Low false positives are indicated by a high precision score.
@@ -60,5 +73,5 @@ Developers/Researchers: Those involved in the development of large language mode
 - Harmonic Average of Accuracy and Memory: Precision and recall are measured in a balanced manner by the F1-Score. When there is a disparity between the quantity of essays produced by LLMs and students, it is very helpful.
 
 6. Interpretability Metrics:
-  - Explanatory Power: To guarantee openness and reliability, metrics pertaining to the model's interpretability, such offering justifications for forecasts, are crucial.
+  - Explanatory Power: To guarantee openness and reliability, metrics pertaining to the model's interpretability, such as offering justifications for forecasts, are crucial.
 
