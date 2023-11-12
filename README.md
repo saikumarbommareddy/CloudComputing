@@ -44,6 +44,12 @@ Developers/Researchers: Those involved in the development of large language mode
 
    The manual processing and classification of large datasets are considered difficult, prompting the development of intelligent text-processing tools in the field of Natural Language Processing (NLP). There is a need for automated text classification due to the increasing volume of data and the demand for accuracy. It also identifies a research opportunity in constructing complex text data models using Deep Learning systems, particularly for intricate NLP tasks with semantic requirements. The paper underscores the significance of understanding the nature of data before mining and proposes that data analytics serves as the foundation for text classification. The ultimate goal is to use the results for emergent applications that support decision-making processes, enabling humans to optimize resources and gain maximum benefits.
 
+4. Julliano Trindade Pintas [January 29, 2021]. Feature selection methods for text classification: a systematic literature review. https://www.desirabletomorrows.org/assets/files/GARCIA-A.C.etal.FeatureSelectionMethodsforTextClassification.pdf
+
+   This research paper focuses on the critical role of Feature Selection (FS) methods in improving classification procedures, particularly in the context of text classification. The authors highlight that FS methods are essential for enhancing classification accuracy, reducing data dimensionality, and eliminating irrelevant data. Despite the significance of FS in text classification, the authors note a gap in literature surveys, with few comprehensive analyses available.
+
+   To address this gap, the researchers conducted a Systematic Literature Review (SLR) and came to a two-fold contribution: first, it introduces a new categorization schema for mapping various aspects of each proposed FS method, and second, it provides a detailed mapping of the main characteristics of experiments. These characteristics include the datasets, languages, machine learning algorithms, and validation methods employed in evaluating both new and existing FS techniques. By adhering to the SLR protocol, the authors aim to facilitate the replication of their review process and minimize potential biases in classifying the included studies.
+
 
 
 
