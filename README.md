@@ -50,7 +50,9 @@ Developers/Researchers: Those involved in the development of large language mode
 
    To address this gap, the researchers conducted a Systematic Literature Review (SLR) and came to a two-fold contribution: first, it introduces a new categorization schema for mapping various aspects of each proposed FS method, and second, it provides a detailed mapping of the main characteristics of experiments. These characteristics include the datasets, languages, machine learning algorithms, and validation methods employed in evaluating both new and existing FS techniques. By adhering to the SLR protocol, the authors aim to facilitate the replication of their review process and minimize potential biases in classifying the included studies.
 
+5. Xiaoyu Luo [February 21, 2021]. Efficient English text classification using selected Machine Learning Techniques. https://www.sciencedirect.com/science/article/pii/S1110016821000806?via%3Dihub
 
+   The paper focuses on implementing the Support Vector Machines (SVM) model for classifying English text and documents using text classification. Two analytical experiments were conducted to evaluate selected classifiers with English documents. The experimental results, based on a set of 1033 text documents, indicate that the Rocchio classifier performs well when the feature set is small. However, SVM consistently outperforms other classifiers. The experimental analysis reveals that the classification rate exceeds 90% when the feature set size exceeds 4000 features. Overall, the study highlights the effectiveness of SVM in English text classification, especially when dealing with a larger feature set.
 
 
 ## Domain-specific Challenges:
