@@ -13,7 +13,7 @@ https://www.kaggle.com/competitions/llm-detect-ai-generated-text/data
 
 ## Project Scope: 
 
-This project's machine learning component attempts to solve the problem of telling student essays from essays produced by large language models (LLMs). The main objective is to create a model that can reliably determine if an essay falls into the LLM-generated category (1) or the student-written category (0). By using machine learning techniques for text classification, this activity is in line with the goals of the AWS Academy Cloud Foundations and Data Engineering teaching programmes.
+This project's machine learning component attempts to solve the problem of telling student essays from essays produced by large language models (LLMs). The main objective is to create a model that can reliably determine if an essay falls into the LLM-generated category (1) or the student-written category (0). By using machine learning techniques for text classification, this activity is in line with the goals of the AWS Academy Cloud Foundations and Data Engineering teaching programs.
 
 ## Domain:
 
