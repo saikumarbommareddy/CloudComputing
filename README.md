@@ -38,6 +38,13 @@ Developers/Researchers: Those involved in the development of large language mode
 
    In their approach, each short text is enriched with semantically similar data obtained from an external source of knowledge organized into topics using the Latent Dirichlet Allocation model. The learning process in Random Forests is modified to incorporate semantic relations between words during the construction of decision trees. The authors conducted tests on search snippets using their proposed method, demonstrating significant improvements in classification accuracy. The results showed a 34% increase in accuracy compared to traditional Random Forests and a 20% increase compared to MaxEnt. This suggests that incorporating semantic information into the learning process enhances the performance of Random Forests in short text classification tasks.
 
+3. Johnson Kolluri [June 8, 2020]. Text classification using Machine Learning and Deep Learning Models https://deliverypdf.ssrn.com/delivery.php?ID=510070086111087082126117000086016117052035053080091016022066114009095070106099029093043053024038005001055089018069090014013080041021059082052098119121116000031019066036045082066122026083122025076084028117123006017095000071106029025018008122031087024111&EXT=pdf&INDEX=TRUE
+
+   This paper discusses the challenge of dealing with irregular data in various sectors, including universities, businesses, research institutions, technology companies, and government agencies. It emphasizes the importance of organized data for effective analysis and decision-making. Text analytics, translating text into numerical data, plays a crucial role in detecting patterns, and the quality of data organization directly influences the analysis and decision outcomes.
+
+   The manual processing and classification of large datasets are considered difficult, prompting the development of intelligent text-processing tools in the field of Natural Language Processing (NLP). There is a need for automated text classification due to the increasing volume of data and the demand for accuracy. It also identifies a research opportunity in constructing complex text data models using Deep Learning systems, particularly for intricate NLP tasks with semantic requirements. The paper underscores the significance of understanding the nature of data before mining and proposes that data analytics serves as the foundation for text classification. The ultimate goal is to use the results for emergent applications that support decision-making processes, enabling humans to optimize resources and gain maximum benefits.
+
+
 
 
 ## Domain-specific Challenges:
