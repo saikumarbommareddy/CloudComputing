@@ -90,3 +90,6 @@ Developers/Researchers: Those involved in the development of large language mode
 6. Interpretability Metrics:
   - Explanatory Power: To guarantee openness and reliability, metrics pertaining to the model's interpretability, such as offering justifications for forecasts, are crucial.
 
+  ## AWS Solution Pipeline Chart
+
+![AWS Pipleline_Solution Chart (1)](https://github.com/saikumarbommareddy/CloudComputing/assets/39944794/5c00f027-406b-4567-b8bc-ff99fb6d4967)
